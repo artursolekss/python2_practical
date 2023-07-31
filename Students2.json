@@ -1,0 +1,33 @@
+ [{
+    "id": 9,
+    "name": "Daniel Thomas",
+    "age": 22,
+    "major": "Chemistry",
+    "gpa": 3.9,
+    "courses": ["Organic Chemistry", "Physical Chemistry", "Analytical Chemistry"]
+  },
+  {
+    "id": 10,
+    "name": "Ava Clark",
+    "age": 19,
+    "major": "History",
+    "gpa": 3.2,
+    "courses": ["World History", "European History", "Ancient Civilizations"]
+  },
+  {
+    "id": 11,
+    "name": "David Martinez",
+    "age": 20,
+    "major": "Economics",
+    "gpa": 3.6,
+    "courses": ["Microeconomics", "Macroeconomics", "International Trade"]
+  },
+  {
+    "id": 12,
+    "name": "Mia Scott",
+    "age": 21,
+    "major": "Political Science",
+    "gpa": 3.8,
+    "courses": ["Introduction to Political Science", "Comparative Politics", "International Relations"]
+  }
+]
