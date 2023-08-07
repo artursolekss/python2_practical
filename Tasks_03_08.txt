@@ -1,0 +1,14 @@
+MongoDB:
+  1)Take one of the previous SQL databases created by you
+  2)In Python, write the code which extracts the tables from that DB
+  3)Load the data from these tables as the collections to MongoDB collections (create them before)
+  3.1) Create unique index, so it matches the key value in the initial SQL database
+  4)Insert at least 3 entries to these collections
+  5)Perform at least 3 selections based on different (MIXED - "one or another","one and another", etc.) filter
+  6)Perform at least 3 update operations
+Redis DB:
+  1)Use the same SQL data as in Part 1.
+  2)Create Redis DB, with the data from SQL:
+    Set a key with a specific value in Redis.
+    Retrieve the value of a key from Redis.
+    Delete a key-value pair from Redis.
