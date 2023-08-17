@@ -1,11 +1,19 @@
+import time
+import random
+
 def square(number):
     return number * number
 
 
-numbers = list(range(1,99999999))
+random.seed(10)
+numbers = random.sample(range(1,9999999999),1000000000)
 numbers_sqr = list() 
+
+start_time = time.time()
 for num in numbers:
     numbers_sqr.append(square(num))
 
+result = time.time() - start_time
 
-print(numbers_sqr)
+print(result)
+
