@@ -1,0 +1,7 @@
+<form action="{% url 'spotify:login_run' %}" method="post">
+    {% csrf_token %}
+    <label for="client_id">Client ID:</label><br>
+    <input type="text" name="client_id" id="client_id">
+    <br>
+    <input type="submit" value="Login">
+</form>
