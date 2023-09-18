@@ -1,0 +1,10 @@
+<form method="post" action="{% url 'spotify:search' %}">
+    {% csrf_token %}
+    <input name="value" />
+    <select name="type">
+        <option value="artist">Artist</option>
+        <option value="track">Song</option>
+        <option value="album">Album</option>
+    </select>
+    <button type="submit">Search</button>
+</form>
